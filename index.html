@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Выравнивание</title>
+ </head>
+ <body>
+ <h1><b>ЗАО Птицефабрика №1</b></h1>
+  <form method="post" action="handler.php">
+   <table align="center" width="100%" cellspacing="0" cellpadding="4">
+    <tr> 
+     <td align="right" width="320">Фамилия</td>
+     <td><input type="text" maxlength="50" size="20"></td>
+    </tr>
+    <tr> 
+     <td align="right">Инициалы</td>
+     <td><input type="text" maxlength="50" size="20"></td>
+    </tr>
+    <tr> 
+     <td align="right">Пароль</td>
+     <td><input type="password" maxlength="50" size="20"></td>
+    </tr>
+    <tr> 
+     <td align="right">Адрес получателя</td>
+     <td><input type="text" maxlength="50" size="40"></td>
+    </tr>
+    <tr> 
+     <td align="right">Количество</td>
+     <td><input type="text" maxlength="50" size="10"></td>
+    </tr>
+    <tr> 
+     <td align="right">Тип</td>
+     <td><select name="theme" required="required">
+    <option value="">Куриные</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+      </select>
+      <select name="theme" required="required">
+    <option value="">Отборные</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+      </select>
+      </td>
+    </tr>
+    <tr> 
+     <td align="right">Доставка</td>
+     <td><input type="radio" name="answer" value="a1">Почтой
+    <input type="radio" name="answer" value="a2">Электронно
+    <input type="radio" name="answer" value="a3">Курьером</td>
+    </tr>
+    <tr> 
+     <td align="right">Требуется накладная</td>
+     <td><input type="checkbox" name="answer" value="a4"></td>
+    </tr>
+    <tr> 
+     <td align="right" valign="top">Дополнительная информация</td>
+     <td><textarea name="text" cols="55" rows="5"></textarea></td>
+    </tr>
+    <tr> 
+     <td align="right"><input type="submit" name="submit_btn" value="Заказать"></td>
+     <td><input type="submit" name="submit_btn" value="Отменить"></td>
+    </tr>
+   </table>
+  </form>
+ </body>
+</html>
